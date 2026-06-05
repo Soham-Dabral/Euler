@@ -2,6 +2,44 @@
 
 Euler is a Python-based AI assistant project developed as a long-term systems engineering and software architecture project.
 
+## Getting Started
+
+### Requirements
+
+* Python 3.10 or newer
+* Required Python packages:
+
+```bash
+pip install pyttsx3
+```
+
+### Running Euler
+
+From the project directory, run:
+
+```bash
+python main.py
+```
+
+or
+
+```bash
+python3 main.py
+```
+
+depending on your system.
+
+After startup, Euler will begin accepting commands through the terminal.
+
+Example:
+
+```text
+>>> what is the time
+>>> tell me today's date
+>>> set a timer for 10 seconds
+```
+
+
 ## Current Features
 
 * Provides the current date.
