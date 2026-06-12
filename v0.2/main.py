@@ -1,5 +1,7 @@
+#Euler v0.2 main program
+#Run this program to run Euler v0.2
+
 from utils.router import handle_prompt
-from memory.logger import log
 
 def main():
     print("Euler v1 initialization complete... \n")
