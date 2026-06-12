@@ -1,0 +1,36 @@
+=====================================
+TIMESTAMP: 09:37 PM
+INPUT: time
+OUTPUT: Sir, the current time is 09:37 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 09:37 PM
+INPUT: time
+OUTPUT: Sir, the current time is 09:37 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 09:37 PM
+INPUT: date
+OUTPUT: Sir, today is Friday 12 June 2026 
+ERROR: None
+=====================================
+TIMESTAMP: 09:37 PM
+INPUT: timer for 1 s
+OUTPUT: Sir, your timer has completed 
+ERROR: None
+=====================================
+TIMESTAMP: 09:37 PM
+INPUT: time and date
+OUTPUT: Sir, the current time is 09:37 PM and today is Friday 12 June 2026 
+ERROR: None
+=====================================
+TIMESTAMP: 09:37 PM
+INPUT: date and time
+OUTPUT: Sir, today is Friday 12 June 2026 and the current time is 09:37 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 09:37 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
