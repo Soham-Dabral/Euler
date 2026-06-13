@@ -1,0 +1,211 @@
+=====================================
+TIMESTAMP: 10:08 PM
+INPUT: date
+OUTPUT: Sir, today is Friday 12 June 2026 
+ERROR: None
+=====================================
+TIMESTAMP: 10:08 PM
+INPUT: time
+OUTPUT: Sir, the current time is 10:08 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 10:08 PM
+INPUT: date and time
+OUTPUT: Sir, today is Friday 12 June 2026 and the current time is 10:08 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 10:08 PM
+INPUT: time and date
+OUTPUT: Sir, the current time is 10:08 PM and today is Friday 12 June 2026 
+ERROR: None
+=====================================
+TIMESTAMP: 10:08 PM
+INPUT: set a timer for 2 seconds
+OUTPUT: Sir, your timer has completed 
+ERROR: None
+=====================================
+TIMESTAMP: 10:08 PM
+INPUT: thanks
+OUTPUT: Apologies sir, I cannot find that command
+ERROR: Command not found 
+
+=====================================
+TIMESTAMP: 10:08 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
+=====================================
+TIMESTAMP: 10:34 PM
+INPUT: time? what is the time?
+OUTPUT: Sir, the current time is 10:34 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 10:34 PM
+INPUT: what is the time?
+OUTPUT: Sir, the current time is 10:34 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 10:34 PM
+INPUT: what is the time? tell me twice
+OUTPUT: Sir, the current time is 10:34 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 10:34 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
+=====================================
+TIMESTAMP: 03:42 PM
+INPUT: open calc
+OUTPUT: Sir, opening calc 
+ERROR: None
+=====================================
+TIMESTAMP: 03:48 PM
+INPUT: open calculator
+OUTPUT: Sir, opening calculator 
+ERROR: None
+=====================================
+TIMESTAMP: 03:48 PM
+INPUT: time
+OUTPUT: Sir, the current time is 03:48 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 03:48 PM
+INPUT: date
+OUTPUT: Sir, today is Saturday 13 June 2026 
+ERROR: None
+=====================================
+TIMESTAMP: 03:49 PM
+INPUT: date and time
+OUTPUT: Sir, today is Saturday 13 June 2026 and the current time is 03:49 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 03:49 PM
+INPUT: time and date
+OUTPUT: Sir, the current time is 03:49 PM and today is Saturday 13 June 2026 
+ERROR: None
+=====================================
+TIMESTAMP: 03:49 PM
+INPUT: tell me the time, date and open calc
+OUTPUT: Sir, the current time is 03:49 PM and today is Saturday 13 June 2026 and opening calc 
+ERROR: None
+=====================================
+TIMESTAMP: 03:50 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
+=====================================
+TIMESTAMP: 03:54 PM
+INPUT: open calc
+OUTPUT: Sir, opening calc 
+ERROR: None
+=====================================
+TIMESTAMP: 03:54 PM
+INPUT: open spotify
+OUTPUT: Sir, opening spotify 
+ERROR: None
+=====================================
+TIMESTAMP: 04:00 PM
+INPUT: time
+OUTPUT: Sir, the current time is 04:00 PM 
+ERROR: None
+=====================================
+TIMESTAMP: 04:00 PM
+INPUT: date
+OUTPUT: Sir, today is Saturday 13 June 2026 
+ERROR: None
+=====================================
+TIMESTAMP: 04:00 PM
+INPUT: set a timer for 3 sec
+OUTPUT: Sir, your timer has completed 
+ERROR: None
+=====================================
+TIMESTAMP: 04:00 PM
+INPUT: open calculator
+OUTPUT: Sir, opening calculator 
+ERROR: None
+=====================================
+TIMESTAMP: 04:00 PM
+INPUT: open spotify
+OUTPUT: Sir, opening spotify 
+ERROR: None
+=====================================
+TIMESTAMP: 04:00 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
+=====================================
+TIMESTAMP: 04:02 PM
+INPUT: open calculator
+OUTPUT: Sir, opening calculator 
+ERROR: None
+=====================================
+TIMESTAMP: 04:02 PM
+INPUT: open spotify
+OUTPUT: Sir, opening spotify 
+ERROR: None
+=====================================
+TIMESTAMP: 04:03 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
+=====================================
+TIMESTAMP: 04:03 PM
+INPUT: open edge
+OUTPUT: Sir, opening edge 
+ERROR: None
+=====================================
+TIMESTAMP: 04:03 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
+=====================================
+TIMESTAMP: 04:05 PM
+INPUT: open edge
+OUTPUT: Sir, opening edge 
+ERROR: None
+=====================================
+TIMESTAMP: 04:05 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
+=====================================
+TIMESTAMP: 04:08 PM
+INPUT: open firefox
+OUTPUT: Sir, opening firefox 
+ERROR: None
+=====================================
+TIMESTAMP: 04:08 PM
+INPUT: open edge
+OUTPUT: Sir, opening edge 
+ERROR: None
+=====================================
+TIMESTAMP: 04:08 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
+=====================================
+TIMESTAMP: 04:08 PM
+INPUT: open firefox
+OUTPUT: Sir, opening firefox 
+ERROR: None
+=====================================
+TIMESTAMP: 04:09 PM
+INPUT: thanks now exit
+OUTPUT: Apologies sir, I cannot find that command
+ERROR: Command not found 
+
+=====================================
+TIMESTAMP: 04:09 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None
