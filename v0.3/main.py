@@ -1,9 +1,8 @@
 from core.router import handle_prompt
 from memory.logger import log
-from core.speech import speak
 from core.response_builder import handle_response
 def main():
-    print("Euler v1 initialization complete... \n")
+    print("Euler v0.3 initialization complete... \n")
     print("Good day, sir. I trust you are having a pleasant day.")
     while True:
         prompt = input(">>> ").strip().lower()
