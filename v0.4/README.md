@@ -1,156 +1,138 @@
-# Euler v0.3
+# Euler v0.4
 
-Euler is a lightweight modular command-driven assistant designed with a clear separation between intent detection, execution, response generation, and logging.
+Euler is a lightweight command-based desktop assistant built in Python. The project is being developed incrementally with a focus on clean architecture, modular design, and gradual operating system integration.
 
----
+## Current Features
 
-## Overview
+### Time and Date
 
-Euler processes natural language commands using a keyword-based routing system and converts them into structured "facts", which are then transformed into human-readable responses.
+* Retrieve the current system time.
+* Retrieve the current system date.
 
-The system is intentionally minimal in v0.3, focusing on architectural clarity rather than advanced NLP.
+### Timers
 
----
+* Create system timers.
+* Timer completion notifications.
 
-## Features (v0.3)
+### Logging System
 
-* Keyword-based intent detection
-* Modular router system
-* Fact-based command execution
-* Response builder for natural language output
-* Timer support (basic parser included)
-* Date and time utilities
-* Structured logging system
-* Basic voice output integration
+* Records user inputs.
+* Records Euler responses.
+* Records errors for debugging and development.
 
----
+### Response Builder
+
+* Converts structured facts into natural language responses.
+* Supports multiple facts in a single response.
+
+### Application Launcher (v0.4)
+
+Euler can launch selected desktop applications using natural language commands.
+
+Examples:
+
+* Open Calculator
+* Open Firefox
+* Open Edge
+* Open Spotify
+
+The application launcher uses an alias system, allowing multiple names for the same application.
+
+Example:
+
+* calculator
+* calc
+
+Both resolve to the Calculator application.
 
 ## Architecture
 
-Euler follows a pipeline-based architecture:
+Euler follows a modular design:
 
-```
-User Input
-   ↓
-Router (handle_prompt)
-   ↓
-Facts + Errors
-   ↓
-Response Builder (handle_response)
-   ↓
-Final Response
-   ↓
-Logger
-   ↓
-Speech Output
-```
+### Router
 
----
+Determines user intent and routes commands to the correct module.
 
-## Project Structure
+### Parser
 
-```
-core/
-    router.py          # Intent detection and fact generation
-    response_builder.py# Converts facts into natural language
-commands/
-    command.py         # Core command functions (time, date, timer)
-core/parser.py         # Argument parsing (e.g., timer parsing)
-memory/logger.py       # Logging system
-core/speech.py         # Text-to-speech engine
-main.py               # Entry point
-log.txt               # Execution logs
-```
+Extracts command arguments from user input.
 
----
+### Command Modules
 
-## Example Usage
+Perform actual actions such as:
 
-### Input
+* Getting time
+* Getting date
+* Starting timers
+* Launching applications
 
-```
-time
-```
+### Response Builder
 
-### Output
+Formats structured facts into human-readable responses.
 
-```
-Sir, the current time is 04:30 PM
-```
+### Logger
 
----
+Stores command history and error information.
 
-### Input
+## Example Flow
 
-```
-date and time
-```
+User Input:
 
-### Output
+open calc
 
-```
-Sir, the current time is 04:30 PM and today is Friday 12 June 2026
-```
+Router:
 
----
+Detects "open" intent.
 
-### Input
+Parser:
 
-```
-timer for 5 seconds
-```
+Extracts "calc".
 
-### Output
+Application Launcher:
 
-```
-Sir, your timer has completed
-```
+Resolves alias and launches Calculator.
 
----
+Response Builder:
 
-## Logging
+Sir, Calculator has been opened.
 
-All interactions are logged in `log.txt` with:
+## Project Goals
 
-* Timestamp
-* User input
-* Output
-* Error status
+### v0.5
 
----
+* Application switching
+* Improved OS integration
+* Better command handling
 
-## Design Philosophy
+### v0.6
 
-Euler v0.3 prioritizes:
+* Web search integration
 
-* Clear separation of concerns
-* Deterministic behavior
-* Easy debugging
-* Minimal complexity over intelligence
+### v0.7
 
-No NLP or memory systems are included in this version by design.
+* Desktop integration
+* Persistent background execution
 
----
+### v0.8
 
-## Limitations
+* Expanded UI system
+* Memory management improvements
 
-* No context awareness between commands
-* No natural language understanding beyond keywords
-* No memory system
-* Basic speech integration may require stabilization
+### v0.9
 
----
+* Voice command support
+* Wake-word activation
 
-## Future Plans (v0.4+)
+### v1.0
 
-* Memory system
-* Improved response naturalization
-* Better speech pipeline stability
-* Expanded command set
-* Optional NLP layer
-
----
+* Animated interface
+* Fully integrated desktop assistant experience
 
 ## Status
 
-Euler v0.3 is a stable architectural milestone focusing on modular command execution and structured response generation.
+Euler is currently in active development.
+
+Current Version: v0.4
+Language: Python
+Platform: Windows
+License: Personal Project

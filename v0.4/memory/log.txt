@@ -209,3 +209,14 @@ INPUT: exit
 OUTPUT: Have a great day sir
 
 ERROR: None
+=====================================
+TIMESTAMP: 04:11 PM
+INPUT: open firefox
+OUTPUT: Sir, opening firefox 
+ERROR: None
+=====================================
+TIMESTAMP: 04:11 PM
+INPUT: exit
+OUTPUT: Have a great day sir
+
+ERROR: None

@@ -3,7 +3,7 @@ from memory.logger import log
 from core.response_builder import handle_response
 
 def main():
-    print("Euler v1 initialization complete... \n")
+    print("Euler v0.4 initialization complete... \n")
     print("Good day, sir. I trust you are having a pleasant day.")
     while True:
         prompt = input(">>> ").strip().lower()
@@ -22,4 +22,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
