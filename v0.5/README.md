@@ -25,9 +25,9 @@ Euler is a lightweight command-based desktop assistant built in Python. The proj
 * Converts structured facts into natural language responses.
 * Supports multiple facts in a single response.
 
-### Application Launcher (v0.4)
+### Application Launcher (v0.5)
 
-Euler can launch selected desktop applications using natural language commands.
+Euler can launch selected desktop applications, websites and some system settings using natural language commands.
 
 Examples:
 
@@ -35,6 +35,10 @@ Examples:
 * Open Firefox
 * Open Edge
 * Open Spotify
+* Open LinkedIn
+* Open GitHub
+* Open Wifi
+* Open Bluetooth
 
 The application launcher uses an alias system, allowing multiple names for the same application.
 
@@ -44,6 +48,10 @@ Example:
 * calc
 
 Both resolve to the Calculator application.
+
+### Web Search Feature
+
+Euler can now do a bing search on you browser and it can be done using 'search' keyword
 
 ## Architecture
 
@@ -100,7 +108,7 @@ Sir, Calculator has been opened.
 
 Euler is currently in active development.
 
-Current Version: v0.4
+Current Version: v0.5
 Language: Python
 Platform: Windows
 License: Personal Project
