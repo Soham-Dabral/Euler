@@ -1,4 +1,4 @@
-# Euler v0.4
+# Euler v0.5
 
 Euler is a lightweight command-based desktop assistant built in Python. The project is being developed incrementally with a focus on clean architecture, modular design, and gradual operating system integration.
 
