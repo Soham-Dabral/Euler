@@ -1,0 +1,138 @@
+# Euler v0.4
+
+Euler is a lightweight command-based desktop assistant built in Python. The project is being developed incrementally with a focus on clean architecture, modular design, and gradual operating system integration.
+
+## Current Features
+
+### Time and Date
+
+* Retrieve the current system time.
+* Retrieve the current system date.
+
+### Timers
+
+* Create system timers.
+* Timer completion notifications.
+
+### Logging System
+
+* Records user inputs.
+* Records Euler responses.
+* Records errors for debugging and development.
+
+### Response Builder
+
+* Converts structured facts into natural language responses.
+* Supports multiple facts in a single response.
+
+### Application Launcher (v0.4)
+
+Euler can launch selected desktop applications using natural language commands.
+
+Examples:
+
+* Open Calculator
+* Open Firefox
+* Open Edge
+* Open Spotify
+
+The application launcher uses an alias system, allowing multiple names for the same application.
+
+Example:
+
+* calculator
+* calc
+
+Both resolve to the Calculator application.
+
+## Architecture
+
+Euler follows a modular design:
+
+### Router
+
+Determines user intent and routes commands to the correct module.
+
+### Parser
+
+Extracts command arguments from user input.
+
+### Command Modules
+
+Perform actual actions such as:
+
+* Getting time
+* Getting date
+* Starting timers
+* Launching applications
+
+### Response Builder
+
+Formats structured facts into human-readable responses.
+
+### Logger
+
+Stores command history and error information.
+
+## Example Flow
+
+User Input:
+
+open calc
+
+Router:
+
+Detects "open" intent.
+
+Parser:
+
+Extracts "calc".
+
+Application Launcher:
+
+Resolves alias and launches Calculator.
+
+Response Builder:
+
+Sir, Calculator has been opened.
+
+## Project Goals
+
+### v0.5
+
+* Application switching
+* Improved OS integration
+* Better command handling
+
+### v0.6
+
+* Web search integration
+
+### v0.7
+
+* Desktop integration
+* Persistent background execution
+
+### v0.8
+
+* Expanded UI system
+* Memory management improvements
+
+### v0.9
+
+* Voice command support
+* Wake-word activation
+
+### v1.0
+
+* Animated interface
+* Fully integrated desktop assistant experience
+
+## Status
+
+Euler is currently in active development.
+
+Current Version: v0.4
+Language: Python
+Platform: Windows
+License: Personal Project
