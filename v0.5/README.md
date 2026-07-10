@@ -96,38 +96,6 @@ Response Builder:
 
 Sir, Calculator has been opened.
 
-## Project Goals
-
-### v0.5
-
-* Application switching
-* Improved OS integration
-* Better command handling
-
-### v0.6
-
-* Web search integration
-
-### v0.7
-
-* Desktop integration
-* Persistent background execution
-
-### v0.8
-
-* Expanded UI system
-* Memory management improvements
-
-### v0.9
-
-* Voice command support
-* Wake-word activation
-
-### v1.0
-
-* Animated interface
-* Fully integrated desktop assistant experience
-
 ## Status
 
 Euler is currently in active development.
