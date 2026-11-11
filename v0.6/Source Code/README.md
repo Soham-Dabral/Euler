@@ -92,7 +92,7 @@ Euler/
 Clone the repository:
 
 ```bash
-git clone https://github.com/<username>/Euler.git
+git clone https://github.com/Soham-Dabral/Euler.git
 ```
 
 Enter the project directory:
